@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,700;1,200&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+/* cabeçalho */
+.cabecalho{
+  padding: 15px 15px;
+  position: relative;
+}
+
+.cabecalho .logo{
+  background: url("../images/logo.png") center center no-repeat;
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+}
+
+.cabecalho .logo h1{
+  font-size: 0;
+}
+
+.cabecalho nav{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.cabecalho li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.cabecalho ul li a:hover{
+  border-bottom: solid 4px black;
+  font-weight: bold;
+  transition: .3s;
+}
+
+/* hero section */
+.painel{
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/painel.jpg') center center no-repeat;
+  height: 600px;
+}
+
+.painel h2{
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+}
+
+/* section contato e localização */
+.secao-com-texto{
+  padding: 153px;
+  text-align: center;
+  clear: both;
+}
+
+.secao-com-texto img{
+  width: 170px;
+  height: 170px;
+  margin-bottom: 50px;
+}
+
+.secao-com-texto h2{
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.secao-com-texto p{
+  font-size: 18px;
+  width: 480px;
+  margin: 0 auto;
+}
+
+.secao-com-texto.localizacao-texto p{
+  font-size: 28px;
+}
+
+/* Section galeria */
+.ladrilho div{
+  float: left;
+}
+
+.ladrilho .grande{
+  background: url("../images/4.jpg") center center no-repeat;
+  height: 600px;
+  width: 50%;
+}
+
+.ladrilho .pequeno {
+  background: url("../images/3.jpg") center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .pequeno.grao {
+  background: url("../images/2.jpg") center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .medio {
+  background: url("../images/1.jpg") center center no-repeat;
+  height: 300px;
+  width: 50%;
+}
+
+/* section contato */
+.contato{
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url("../images/fundo-contato.jpg") center center no-repeat;
+  color: #fff;
+  height: 600px;
+  position: relative;
+  text-align: center;
+}
+
+.contato h2{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contato address{
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.contato .texto{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+ .link-whatsapp{
+  color: white;
+  border-bottom: green;
+  font-weight: bold;
+}
+
+/* section rodapé */
+.rodape{
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../images/fundo-rodape.jpg") center center no-repeat;
+  padding: 35px 30px;
+  background-size: cover;
+}
+
+.rodape ul{
+  float: right;
+  margin-top: 30px;
+}
+
+.rodape ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.cabecalho li{
+  display: inline-block;
+  padding: 15px;
+}
+
+.rodape ul li a{
+  color: #fff;
+  display: inline-block;
+  right: 0;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.rodape ul li a:hover{
+  border-bottom: solid 4px white;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.rodape .copyright{
+  color: #fff;
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram{
+  width: 20px;
+  height: 20px;
+  margin: 10px
+}
+
+.rodape .redes-sociais{
+  clear: both;
+  float: right;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.rodape .conteudo-final{
+  margin-top: 40px;
+  padding: 20px;
+}
