@@ -29,6 +29,7 @@
 .contato h2{
 margin-bottom: 46px;
 }
+
 }
 
 /* dispositivos intermediarios */
@@ -101,11 +102,11 @@ margin-bottom: 46px;
  font-size: 3.5rem;
  }
  .secao-com-texto h2{
-  font-size: 4rem;
+  font-size: 3rem;
 }
  
 .secao-com-texto.onde-estamos p{
- font-size: 2rem;
+ font-size: 1rem;
 }
 
 }
