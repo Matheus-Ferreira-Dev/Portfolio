@@ -16,7 +16,7 @@
   .contato {
     background-image: none;
     background-color: black;
-    padding: 30px;
+    padding: 60px;
   }
 
   .contato .texto {
@@ -25,13 +25,12 @@
     top: 50%;
     left: 0;
     transform: translateY(-50%);
-    padding: 30px;
+    font-size: 20px;
   }
 
   .contato h2 {
     margin-bottom: 46px;
   }
-
 }
 
 /* dispositivos intermediarios */
@@ -82,6 +81,10 @@
 
 /* Dispositivos médios, tablets */
 @media (max-width: 425px) {
+ 
+ .contato .texto address{
+  font-size: 22px;
+ }
   .cabecalho .logo {
     display: block;
     margin: 0 auto;
@@ -103,7 +106,7 @@
   }
 
   .painel h2 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
   }
 
   .secao-com-texto h2 {
@@ -123,4 +126,6 @@
   .ladrilho .pequeno.grao {
     width: 100%;
   }
+
+ 
 }
