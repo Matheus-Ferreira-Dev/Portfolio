@@ -1,11 +1,11 @@
 /* Dispositivos médios, tablets */
 @media (max-width: 992px) {
-  .secao-com-texto{
-  padding: 153px 30px;
+  .secao-com-texto {
+    padding: 153px 30px;
   }
-  
+
   .secao-com-texto p,
-  .secao-com-texto.onde-estamos{
+  .secao-com-texto.onde-estamos {
     width: 100%;
   }
 
@@ -13,108 +13,113 @@
 
 /* Dispositivos móveis, celulares */
 @media (max-width:768px) {
-   .contato{
+  .contato {
     background-image: none;
     background-color: black;
-   }
-  .contato .texto{
-  position: relative;
-  text-align: center;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  }
 
-}
+  .contato .texto {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 
-.contato h2{
-margin-bottom: 46px;
-}
+  }
+
+  .contato h2 {
+    margin-bottom: 46px;
+  }
 
 }
 
 /* dispositivos intermediarios */
-@media (max-width:720px){
-.ladrilho .grande, 
-.ladrilho .medio{
-  width: 100%
-}
+@media (max-width:720px) {
 
-.ladrilho .pequeno,
-.ladrilho .pequeno.grao{
-  width: 50%;
-}
+  .ladrilho .grande,
+  .ladrilho .medio {
+    width: 100%
+  }
 
-.rodape{
-  text-align: center;
-  background-image: none;
-  background-color: black;
-}
+  .ladrilho .pequeno,
+  .ladrilho .pequeno.grao {
+    width: 50%;
+  }
 
-.rodape .logo{
-  display: block;
-  margin-bottom: 122px;
- 
-}
-.rodape ul{
-  display: block;
-  width: 100%;
-  margin-bottom: 122px;
- }
+  .rodape {
+    text-align: center;
+    background-image: none;
+    background-color: black;
+  }
 
- .rodape ul li{
-  display: block;
- }
+  .rodape .logo {
+    display: block;
+    margin-bottom: 122px;
 
- .rodape ul li a{
-  font-size: 2rem
- }
+  }
 
- .rodape .redes-sociais{
-  float: none;
-  margin-bottom: 28px;
- }
+  .rodape ul {
+    display: block;
+    width: 100%;
+    margin-bottom: 122px;
+  }
+
+  .rodape ul li {
+    display: block;
+  }
+
+  .rodape ul li a {
+    font-size: 2rem
+  }
+
+  .rodape .redes-sociais {
+    float: none;
+    margin-bottom: 28px;
+  }
 
 }
 
 /* Dispositivos médios, tablets */
 @media (max-width: 425px) {
-  .cabecalho .logo{
-  display: block;
-  margin: 0 auto;
- }
+  .cabecalho .logo {
+    display: block;
+    margin: 0 auto;
+  }
 
- .cabecalho nav{
-  position: static;
-  width: 100%;
-  text-align: center;
- }
+  .cabecalho nav {
+    position: static;
+    width: 100%;
+    text-align: center;
+  }
 
- .cabecalho nav ul li {
-  display: block;
- }
+  .cabecalho nav ul li {
+    display: block;
+  }
 
- .cabecalho nav ul li a{
-  width: 100%;
-  display: block;
- }
+  .cabecalho nav ul li a {
+    width: 100%;
+    display: block;
+  }
 
- .painel h2{
- font-size: 3.5rem;
- }
- .secao-com-texto h2{
-  font-size: 3rem;
-}
- 
-.secao-com-texto.onde-estamos p{
- font-size: 1rem;
-}
+  .painel h2 {
+    font-size: 3.5rem;
+  }
+
+  .secao-com-texto h2 {
+    font-size: 3rem;
+  }
+
+  .secao-com-texto.onde-estamos p {
+    font-size: 1rem;
+  }
 
 }
 
 /* Seção de imagens para disposivos pequenos */
-@media (max-width:375px){
+@media (max-width:375px) {
+
   .ladrilho .pequeno,
-.ladrilho .pequeno.grao{
-  width: 100%;
-}
+  .ladrilho .pequeno.grao {
+    width: 100%;
+  }
 }
