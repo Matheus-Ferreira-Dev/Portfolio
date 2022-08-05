@@ -81,10 +81,7 @@
 
 /* Dispositivos médios, tablets */
 @media (max-width: 425px) {
- 
-  html{
-    overflow-x: hidden;
-  }
+
  .contato .texto address{
   font-size: 22px;
  }
